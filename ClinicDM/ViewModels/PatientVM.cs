@@ -18,5 +18,7 @@ namespace ClinicDM.ViewModels {
         public DateTime DateOfBirth { get; set; }
 
         public int Age => Convert.ToInt32((DateTime.Today - DateOfBirth).TotalDays / 365);
+
+        public List<AppointmentVM> Appointments { get; set; } = new();
     }
 }

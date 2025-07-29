@@ -12,7 +12,7 @@ namespace EFCore.ClinicModels {
         public DbSet<Speciality> Specialities { get; set; } = null!;
 
         override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=Clinic;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=LAPTOP-S41BDCKA\\SQLEXPRESS;Database=Clinic;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {

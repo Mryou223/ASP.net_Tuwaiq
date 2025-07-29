@@ -2,6 +2,7 @@
 using ClinicDM.ViewModels;
 using EFCore.ClinicModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClinicDM.Controllers {
     public class PatientController : Controller {
@@ -36,7 +37,10 @@ namespace ClinicDM.Controllers {
 
         public IActionResult Details(int id) {
 
-           var patient = context.Patients.FirstOrDefault(p => p.Id == id);
+           var patient = context.Patients
+                .Include(p => p.Appointments)
+                .ThenInclude(a => a.Doctor)
+                .FirstOrDefault(p => p.Id == id);
             if (patient == null) {
                 return NotFound();
             }
