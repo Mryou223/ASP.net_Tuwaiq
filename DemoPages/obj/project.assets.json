@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ameri\\Desktop\\ggggg\\tuwaiq-aspnet-20250720\\tuwaiq-aspnet-20250720\\DemoPages\\DemoPages.csproj",
+      "projectUniqueName": "C:\\Users\\ameri\\Desktop\\ASP.net_Tuwaiq\\DemoPages\\DemoPages.csproj",
       "projectName": "DemoPages",
-      "projectPath": "C:\\Users\\ameri\\Desktop\\ggggg\\tuwaiq-aspnet-20250720\\tuwaiq-aspnet-20250720\\DemoPages\\DemoPages.csproj",
+      "projectPath": "C:\\Users\\ameri\\Desktop\\ASP.net_Tuwaiq\\DemoPages\\DemoPages.csproj",
       "packagesPath": "C:\\Users\\ameri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ameri\\Desktop\\ggggg\\tuwaiq-aspnet-20250720\\tuwaiq-aspnet-20250720\\DemoPages\\obj\\",
+      "outputPath": "C:\\Users\\ameri\\Desktop\\ASP.net_Tuwaiq\\DemoPages\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

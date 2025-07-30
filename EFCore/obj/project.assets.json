@@ -4727,11 +4727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ameri\\Desktop\\ggggg\\tuwaiq-aspnet-20250720\\tuwaiq-aspnet-20250720\\EFCore\\EFCore.csproj",
+      "projectUniqueName": "C:\\Users\\ameri\\Desktop\\ASP.net_Tuwaiq\\EFCore\\EFCore.csproj",
       "projectName": "EFCore",
-      "projectPath": "C:\\Users\\ameri\\Desktop\\ggggg\\tuwaiq-aspnet-20250720\\tuwaiq-aspnet-20250720\\EFCore\\EFCore.csproj",
+      "projectPath": "C:\\Users\\ameri\\Desktop\\ASP.net_Tuwaiq\\EFCore\\EFCore.csproj",
       "packagesPath": "C:\\Users\\ameri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ameri\\Desktop\\ggggg\\tuwaiq-aspnet-20250720\\tuwaiq-aspnet-20250720\\EFCore\\obj\\",
+      "outputPath": "C:\\Users\\ameri\\Desktop\\ASP.net_Tuwaiq\\EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
